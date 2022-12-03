@@ -1,0 +1,65 @@
+.logo__img {
+  width: 100%;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar {
+  flex-grow: 1;
+}
+.navbar__list {
+  display: flex;
+}
+.navbar__item {
+  margin-right: 40px;
+}
+.navbar__link {
+  text-decoration: none;
+  font-size: 1.25rem;
+  line-height: 23px;
+  color: #424242;
+}
+.navbar__link:hover {
+  font-size: 1.38rem;
+  line-height: 26px;
+  color: #424242;
+}
+
+.tele {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 1.5rem;
+  line-height: 28px;
+  color: #424242;
+}
+.tele_header {
+  font-size: 20px;
+  color: #306838;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  background: #B5B5B5;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+
+.mr-70 {
+  margin-right: 70px;
+}/*# sourceMappingURL=index.css.map */
