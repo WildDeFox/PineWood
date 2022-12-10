@@ -42,6 +42,63 @@
   color: #306838;
 }
 
+.button {
+  text-decoration: none;
+  transition: 1s;
+}
+.button_primary-large {
+  color: #ffffff;
+  background: #8B9D83;
+  text-transform: uppercase;
+  padding: 31px 39px;
+  box-shadow: 3px 3px 20px rgba(85, 93, 36, 0.302), -4px -4px 20px #FFFFFF;
+  border-radius: 78px;
+}
+.button_primary-large:hover {
+  background: #6D8E5E;
+}
+.button_primary-normal {
+  color: #fff;
+  background: #8B9D83;
+  background-image: url("../../img/button-arrow-normal.png");
+  background-repeat: no-repeat;
+  background-position: center right 27px;
+  padding: 20px 69px 20px 32px;
+  box-shadow: 2.5927px 2.5927px 17.2847px rgba(85, 93, 36, 0.302), -3.45694px -3.45694px 17.2847px #FFFFFF;
+  border-radius: 67px;
+}
+.button_primary-normal:hover {
+  background-color: #6D8E5E;
+}
+.button_primary-small {
+  color: #fff;
+  font-size: 14px;
+  background: #8B9D83;
+  padding: 17px 58px 17px 28px;
+  box-shadow: 2.09901px 2.09901px 13.9934px rgba(85, 93, 36, 0.302), -2.79867px -2.79867px 13.9934px #FFFFFF;
+  border-radius: 55px;
+  background-image: url("../../img/button-arrow-small.png");
+  background-repeat: no-repeat;
+  background-position: center right 27px;
+}
+.button_primary-small:hover {
+  background-color: #6D8E5E;
+}
+.button_secondary-large {
+  font-size: 18px;
+  color: #686656;
+  padding: 21px 52px;
+  border: 3px solid #8B9D83;
+  border-radius: 78px;
+}
+.button_secondary-normal {
+  font-size: 16px;
+  color: #686656;
+  padding: 14px 30px;
+  border: 2px solid #8B9D83;
+  border-radius: 78px;
+}
+
 html {
   font-family: "Roboto", sans-serif;
   font-style: normal;
