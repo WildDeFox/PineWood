@@ -2,6 +2,8 @@
 @import "./mixins"
 @import "./header"
 @import "./components/button"
+@import "./components/icon"
+@import "./main-section"
 
 html 
   font-family: 'Roboto', sans-serif
@@ -11,12 +13,38 @@ html
   background: #B5B5B5
 
 .container
-  max-width: 1140px
+  max-width: 1200px
   margin: 0 auto
   height: 100%
 
 .mr-20
   margin-right: 20px
 
+.mr-30
+  margin-right: 30px
+
+.mr-60
+  margin-right: 60px
+
 .mr-70
   margin-right: 70px
+
+.mb-30
+  margin-bottom: 30px
+
+.mb-60
+  margin-bottom: 60px
+
+.mb-100
+  margin-bottom: 100px
+
+.mb-200
+  margin-bottom: 200px
+
+
+.heading-1
+  @include text(48px, 56px)
+  font-weight: 600
+
+.light-color
+  color: #8B9D83
