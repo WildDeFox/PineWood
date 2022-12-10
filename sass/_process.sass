@@ -1,0 +1,26 @@
+.process
+  background-image: url('../img/process-background.png')
+  background-repeat: no-repeat
+  background-position: center bottom
+  padding-bottom: 200px
+
+  &__card
+    display: flex
+    width: 332px
+    margin-bottom: 130px
+
+    &-wrapper
+      display: flex
+      flex-wrap: wrap
+      justify-content: space-between
+
+    &-img
+      align-self: flex-start
+      margin-right: 25px
+
+    &-content-heading
+      @include text(24px, 28px)
+      margin-bottom: 12px
+
+    &-content-descrip
+      @include text(16px, 19px)
